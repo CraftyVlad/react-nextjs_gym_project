@@ -1,22 +1,12 @@
 import s from "@/styles/main.module.scss";
 
-export default function Home() {
+export default function Main() {
 	return (
 		<>
-			<div className={s.hero}>
-				<img src="hero1.jpg" width="100%" />
-				<h2>
-					MAKE YOUR <br></br> <span style={{fontSize: "112px"}}>BODY</span>
-				</h2>
-			</div>
 			<div className={s.main}>
 				<h2 className={s.main_title}>COACHES</h2>
-				<h1 className={s.main_title2}>
-					BUILD YOUR BODY WITH OUR BEST TRAINERS
-				</h1>
-				<p className={s.main_text}>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-				</p>
+				<h1 className={s.main_title2}>BUILD YOUR BODY WITH OUR BEST TRAINERS</h1>
+				<p className={s.main_text}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 				<div className={s.coaches}>
 					<img src="bodybuilder.jpg" alt="" />
 					<img src="bodybuilder2.jpg" alt="" />

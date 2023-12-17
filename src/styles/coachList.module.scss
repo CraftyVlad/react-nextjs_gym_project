@@ -1,0 +1,15 @@
+.coach {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3vw;
+    margin: 10vh 0;
+}
+
+.coachContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #fafafa;
+    width: 100vw;
+}

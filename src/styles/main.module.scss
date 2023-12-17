@@ -1,0 +1,213 @@
+.hero {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    filter: grayscale(90%);
+    align-items: center;
+    justify-content: center;
+}
+
+.hero>h2 {
+    position: absolute;
+    color: #FFF;
+    font-family: Alatsi;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fafafa;
+
+    .main_title {
+        color: #FD0054;
+        font-family: Alatsi;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .main_title2 {
+        color: #000;
+        font-family: Alatsi;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-top: 5px solid #cc1f58;
+        padding: 1vh;
+
+    }
+
+    .main_text {
+        color: #979797;
+        font-family: Alatsi;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .coaches {
+        display: flex;
+
+        img {
+            height: 60vh;
+            margin: 5vh 2vw;
+        }
+    }
+}
+
+.pricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+    background-color: #FD0054;
+
+    .pricing_title {
+        color: #FAFAFA;
+        text-align: center;
+        font-family: Alatsi;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 3.6px;
+    }
+
+    .cards {
+        display: flex;
+        margin: 10vh;
+
+        .card_planType {
+            color: #FAFAFA;
+            text-align: center;
+            font-family: Alatsi;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1.92px;
+        }
+
+        .card_desc {
+            color: #FAFAFA;
+            text-align: center;
+            font-family: Alatsi;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1.2px;
+        }
+
+        .card_price {
+            color: #FAFAFA;
+            text-align: center;
+            font-family: Alatsi;
+            font-size: 70px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 4.2px;
+        }
+
+        .card_benefit {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .card_moreInfo {
+            height: 3vw;
+            padding: 1vh;
+            color: #FAFAFA;
+            text-align: center;
+            font-family: Alatsi;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 1.2px;
+            background-color: transparent;
+            border: 2px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+
+    .card1 {
+        display: flex;
+        height: 50vh;
+        width: 20vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #332a2d;
+        color: #FAFAFA;
+        text-align: center;
+        font-family: Alatsi;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.92px;
+        margin: 0 2vw;
+        border: 5px solid white;
+        border-radius: 10px;
+    }
+
+    .card2 {
+        display: flex;
+        height: 50vh;
+        width: 20vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #301f25;
+        color: #FAFAFA;
+        text-align: center;
+        font-family: Alatsi;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.92px;
+        margin: 0 2vw;
+        border: 5px solid white;
+        border-radius: 10px;
+    }
+
+    .card3 {
+        display: flex;
+        height: 50vh;
+        width: 20vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #27191d;
+        color: #FAFAFA;
+        text-align: center;
+        font-family: Alatsi;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.92px;
+        margin: 0 2vw;
+        border: 5px solid white;
+        border-radius: 10px;
+    }
+}

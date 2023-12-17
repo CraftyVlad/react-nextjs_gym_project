@@ -1,0 +1,196 @@
+.body {
+    background-color: #fafafa;
+}
+
+.hero {
+    padding-top: 100px;
+    width: 100vw;
+    background-color: #fafafa;
+}
+
+.coach_details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+    margin: 5vh 0;
+
+    .left {
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 83vh;
+            width: 20vw;
+            background-color: #f4f4f4;
+
+            .coach_picture {
+                height: 40vh;
+                width: 24vw;
+                background-color: rgb(110, 110, 110);
+            }
+
+            .card_details {
+                padding: 20px;
+            }
+
+            .card_details>h2,
+            h3,
+            p {
+                margin-bottom: 1vh;
+            }
+
+            .card_details>h2 {
+                color: #000;
+                font-family: Alatsi;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .card_details>h3 {
+                color: #FD0054;
+                font-family: Alatsi;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .card_details>p {
+                color: #979797;
+                font-family: Alatsi;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw;
+
+        .summary>h2 {
+            color: #000;
+            font-family: Alatsi;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 10px;
+        }
+
+        .summary>h3 {
+            color: #979797;
+            font-family: Alatsi;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .summary {
+            padding: 20px;
+            height: 15vh;
+            width: 40vw;
+        }
+
+        .progressbars {
+            padding: 20px;
+            height: 25vh;
+            width: 40vw;
+
+            .bar_lightgrey {
+                background-color: #e2e2e2;
+                margin: 1vh 0;
+            }
+
+            .bar {
+                background-color: #FD0054;
+            }
+
+            .progressbar_header {
+                color: #FD0054;
+                font-family: Alatsi;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            height: 30vh;
+            width: 40vw;
+
+            .form_header {
+                color: #000;
+                font-family: Alatsi;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-bottom: 10px;
+
+            }
+
+            .form>span {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .form_input1 {
+                margin-right: 30px;
+            }
+
+            .form_input1,
+            .form_input2 {
+                width: 19vw;
+                color: #979797;
+                font-family: Alatsi;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                border: none;
+                background-color: #e6e6e6;
+            }
+
+            .form_textarea {
+                color: #979797;
+                font-family: Alatsi;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin: 20px 0;
+                resize: none;
+                border: none;
+                background-color: #e6e6e6;
+            }
+
+            .form_submit {
+                color: #FD0054;
+                font-family: Alatsi;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                height: 10vh;
+                width: 4vw;
+                border: 2px solid #fd0054;
+                border-radius: 5px;
+                background-color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+}

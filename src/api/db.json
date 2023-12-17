@@ -1,0 +1,76 @@
+{
+  "coaches": [
+    {
+      "id": 1,
+      "name": "Ross Blackman",
+      "title": "Bodybuilding Coach",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "bodybuilding": "90%",
+      "weightlifting": "60%",
+      "running": "90%",
+      "imgURL": "bodybuilder.jpg",
+      "isFavourite": false
+    },
+    {
+      "id": 2,
+      "name": "Alex Pheonix",
+      "title": "Bodybuilding Coach",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "bodybuilding": "86%",
+      "weightlifting": "80%",
+      "running": "65%",
+      "imgURL": "bodybuilder2.jpg",
+      "isFavourite": false
+    },
+    {
+      "id": 3,
+      "name": "Jesie Pit",
+      "title": "Bodybuilding Coach",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "bodybuilding": "85%",
+      "weightlifting": "90%",
+      "running": "70%",
+      "imgURL": "bodybuilder3.jpg",
+      "isFavourite": false
+    },
+    {
+      "id": 4,
+      "name": "Ross Blackman (2)",
+      "title": "Bodybuilding Coach",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "bodybuilding": "95%",
+      "weightlifting": "90%",
+      "running": "60%",
+      "imgURL": "bodybuilder4.jpg",
+      "isFavourite": false
+    },
+    {
+      "id": 5,
+      "name": "Alex Pheonix (2)",
+      "title": "Bodybuilding Coach",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "bodybuilding": "70%",
+      "weightlifting": "80%",
+      "running": "90%",
+      "imgURL": "bodybuilder5.jpg",
+      "isFavourite": false
+    },
+    {
+      "id": 6,
+      "name": "Jesie Pit (2)",
+      "title": "Bodybuilding Coach",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "bodybuilding": "95%",
+      "weightlifting": "75%",
+      "running": "90%",
+      "imgURL": "bodybuilder6.jpg",
+      "isFavourite": false
+    }
+  ]
+}
